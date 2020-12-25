@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {StateEx} from "./StateEx";
+import {StateEx1} from "./StateEx1";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
- <StateEx></StateEx>
+ <StateEx1></StateEx1>
   </React.StrictMode>,
   document.getElementById('root')
 );
