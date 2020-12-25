@@ -14,8 +14,8 @@ const obj:any={
 };
 const [obj1,obj2]=useState(obj);
 const Student:any[]=[{"sid":111,"sname":"Sree","marks":450},
-                       {"sid":111,"sname":"Yammu","marks":500},
-                       {"sid":111,"sname":"Vandu","marks":400}];
+                       {"sid":222,"sname":"Yammu","marks":500},
+                       {"sid":333,"sname":"Vandu","marks":400}];
     const [getStudents,allStudents]=useState(Student);
 return(
     <React.Fragment>
